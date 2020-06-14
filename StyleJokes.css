@@ -1,11 +1,10 @@
 div#galerie {
   width: 410px ;
-  background: #eed ;
-  border: 1px solid #dcb ;
+  background: #fff ;
   padding: 15px ;
   margin: 15px 30px ;
   text-align: center ;
-  font: 0.9em Georgia, serif ;}
+  font: 0.9em Roboto, sans-serif ;}
 
 ul#galerie_mini {
   margin: 0 ;
@@ -17,7 +16,7 @@ ul#galerie_mini li {
 
 ul#galerie_mini li a img {
   margin: 2px 1px ;
-  border: 1px solid #dcb ; }
+ }
 
 ul#nav {
   margin: 0 ;
@@ -29,14 +28,22 @@ ul#nav li {
 
 dl#photo {
   clear: both ;
-  margin: 0 auto ; }
+  margin: 0 auto ;
+  width: 90%;
+ }
 
 dl#photo dt {
-	font: italic 2.5em/1.5em Georgia, serif ;
- 	color: #dcb ;}
+	font: 2.5em/1.5em Roboto, sans-serif ;
+ 	color: #dcb ;
+  width: 90%;
+}
 
 dl#photo dd {
-  margin: 0 ; }
+  margin: 0 ;
+  width: 90%;
+}
 
 dl#photo img{
-  border: 1px solid #dcb ; }
+  border: 1px solid #dcb ;
+  width: 90%;
+}
